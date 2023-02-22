@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+// body {
+//     background-color: gray;
+// }
+
+// form {
+//     display: flex;
+//     flex-direction: column;
+
+//     span {
+//         color: red;
+//         display: none;
+//     }
+
+//     button {
+//         width: 100px;
+//     }
+// }
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+    .container {
+        display: flex !important;
+        // justify-content: space-between;
+        justify-content: center !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 70% !important;
+
+        // .leftside-elements {
+        //     display: flex;
+
+        //     .item {
+        //         width: 100px;
+        //         height: 100px;
+        //         cursor: pointer;;
+        //     }
+
+        //     #dragElement1 {
+        //         background-color: blue;
+        //     }
+
+        //     #dragElement2 {
+        //         background-color: red;
+        //     }
+
+        //     #dragElement3 {
+        //         background-color: green;
+        //     }
+        // }
+
+        // #dropElement {
+        //     height: 300px;
+        //     width: 300px;
+        //     background-color: blueviolet;
+
+        //     .item {
+        //         width: 100px;
+        //         height: 100px;
+        //         cursor: pointer;;
+        //     }
+
+        //     #dragElement1 {
+        //         background-color: blue;
+        //     }
+
+        //     #dragElement2 {
+        //         background-color: red;
+        //     }
+
+        //     #dragElement3 {
+        //         background-color: green;
+        //     }
+        // }
+
+
+
+
+
+
+        .upload-area {
+            width: 40%;
+            height: 200px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            .upload {
+                display: none;
+            }
+
+            i {
+                font-size: 30px;
+            }
+        }
+
+        .image-data {
+            margin-top: 100px;
+            width: 100%;
+            display: none;
+
+            .table {
+                tbody {
+                    tr {
+                        td {
+                            img {
+                                width: 200px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
