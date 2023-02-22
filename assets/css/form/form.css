@@ -8,8 +8,6 @@
 main {
   display: flex;
   justify-content: center;
-  height: 100vh;
-  align-items: center;
 }
 main .container {
   display: flex !important;
@@ -17,6 +15,7 @@ main .container {
   flex-direction: column !important;
   align-items: center !important;
   width: 70% !important;
+  margin-top: 170px;
 }
 main .container .upload-area {
   width: 40%;
